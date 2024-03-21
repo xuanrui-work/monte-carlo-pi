@@ -34,10 +34,10 @@ def main():
             if i % checkpoint == 0:
                 print(f'Iteration {i} -> pi={pi:.10f}, std_err={std_err:.10f}')
             i += 1
-        print('\n\nDone!')
+        print('\n\nDone!\n\n')
     
     except KeyboardInterrupt:
-        print(f'\n\nInterrupted at iteration {i}.')
+        print(f'\n\nInterrupted!\n\n')
         pass
     
     print(f'Final iteration {i} -> pi={pi:.10f}, std_err={std_err:.10f}')
